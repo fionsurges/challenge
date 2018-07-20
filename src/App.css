@@ -11,7 +11,7 @@
 .user-card {
   border: 1px solid #d9dce0;
   border-radius: 3px;
-  box-shadow: 5px 5px #d9dce0;
+  box-shadow: 2px 2px #d9dce0;
   width: 350px;
   height: 206px;
   margin: 20px 10px;
@@ -48,14 +48,14 @@
   opacity: 100%;
   font-size: 13px;
   font-weight: 600;
-  character: 0px;
+  letter-spacing: 0px;
   line-height: 18px(1.4);
 }
 
 .instruction-box {
   border: 1px solid #d9dce0;
   border-radius: 3px;
-  box-shadow: 5px 5px #d9dce0;
+  box-shadow: 2px 2px #d9dce0;
   height: auto;
   margin: 0 10px;
   width: 1095px;
@@ -79,22 +79,23 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 80px;
+  color: #294762;
+  opacity: 100%;
 }
 
-.random-posts h1 {
-  color: #294762 80%;
-  opacity: 100%;
+#post-text h1 {
   font-size: 20px;
   font-weight: 300;
-  character: 0px;
-  line-height: 30px(1.5);
   text-transform: capitalize;
+  letter-spacing: 0px;
+  line-height: 30px;
+  margin: 30px 0;
 }
 
-.random-posts p {
-  color: #294762 80%;
-  opacity: 100%;
+#post-text p {
+  letter-spacing: 0px;
+  line-height: 20px;
   font-size: 13px;
-  character: 0px;
-  line-height: 20px(1.5);
+  margin-top: 20px;
+  margin-bottom: 50px;
 }

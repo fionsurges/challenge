@@ -40,21 +40,21 @@ class UserCards extends Component {
         const avatarEmail = this.props.userEmail
 
         return (
-        <div>
-            <div className='user-card' onClick={this.getRandomPosts}>
-                <div className='user-info-container'>
-                    <div id='user-image'>
-                        <img src={`https://api.adorable.io/avatars/150/${avatarEmail}.png`}/>
-                    </div>
-                    <div id='user-info'>
-                        <p id='user-catchphrase'><i>"{this.props.userCatchPhrase}"</i></p>
-                        <br/>
-                        <p id='user-name'>{this.props.userName}</p>
-                        <small id='user-email'>{this.props.userEmail}</small>
+            <div>
+                <div className='user-card' onClick={this.getRandomPosts}>
+                    <div className='user-info-container'>
+                        <div id='user-image'>
+                            <img src={`https://api.adorable.io/avatars/150/${avatarEmail}.png`}/>
+                        </div>
+                        <div id='user-info'>
+                            <p id='user-catchphrase'><i>"{this.props.userCatchPhrase}"</i></p>
+                            <br/>
+                            <p id='user-name'>{this.props.userName}</p>
+                            <small id='user-email'>{this.props.userEmail}</small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         )
     }
 }

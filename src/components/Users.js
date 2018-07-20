@@ -56,10 +56,7 @@ class Users extends Component {
         })
     } 
 
-    render() {
-
-        console.log(this.state.usersPosts);
-        
+    render() {        
         
         const randomTrue = this.state.randomized
         const displayedUsers = this.state.randomUsers
